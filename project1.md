@@ -59,6 +59,21 @@ The outcome is shown below:
 ![MySQL Console](./images/mysql_console.PNG 'MySQL Console')
 
 
+### **TASK 3: INSTALLING PHP**
+
+I ran the command below to simultaneously install PHP, php-mysql and libapache2-mod-php:
+
+`sudo apt install php php-mysql libapache2-mod-php`
+
+Thereafter, the command below was used to check my PHP version:
+
+`php -v`
+
+The details of the insatlled PHP is displayed below:
+
+![PHP Version Installed](./images/php_version.PNG 'PHP Version Installed')
+
+
 
 
 

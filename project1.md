@@ -21,7 +21,7 @@ A new rule to was then added to the EC2 configuration to open inbound connection
 ![Inbound Connection Permitted](./images/new_http_rule.PNG 'Inbound Connection Permitted')
 
 
-Next, I check how that my Apache server can be accessed locally in my virtual machine. Upper part of the result is shown below:
+Next, I checked that my Apache server can be accessed locally in my virtual machine. Upper part of the result is shown below:
 
 ![Apache Server in Ubuntu](./images/apache_in_ubuntu.PNG "Apache Server in Ubuntu")
 

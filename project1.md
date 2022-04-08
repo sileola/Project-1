@@ -80,6 +80,13 @@ ___
 ### **TASK 4: CREATING A VIRTUAL HOST FOR A WEBSITE USING APACHE**
 ___
 
+The following were the commands run:
+
+`sudo mkdir /var/www/projectlamp`
+
+` sudo chown -R $DevOps:$DevOps /var/www/projectlamp`
+
+
 
 
 

@@ -58,8 +58,9 @@ The outcome is shown below:
 
 ![MySQL Console](./images/mysql_console.PNG 'MySQL Console')
 
-
+___
 ### **TASK 3: INSTALLING PHP**
+___
 
 I ran the command below to simultaneously install PHP, php-mysql and libapache2-mod-php:
 
@@ -75,6 +76,9 @@ The details of the insatlled PHP is displayed below:
 
 
 
+___
+### **TASK 4: CREATING A VIRTUAL HOST FOR A WEBSITE USING APACHE**
+___
 
 
 

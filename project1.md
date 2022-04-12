@@ -84,9 +84,32 @@ The following were the commands run:
 
 `sudo mkdir /var/www/projectlamp`
 
-` sudo chown -R $DevOps:$DevOps /var/www/projectlamp`
+`  sudo chown -R $USER:$USER /var/www/projectlamp`
+
+Then, I created and opened, using Vim, a new configuration file in Apache’s sites-available directory. I named it projectlamp.conf. Thereafrer, I pasted the following text in the opened file:
+
+![Configuration File in Vim](./images/config_file_in_vim.PNG "Configuration File in Vim")
+
+I ran the following command to complete my configuration:
+
+`sudo a2ensite projectlamp`
+`sudo a2dissite 000-default`
+`sudo apache2ctl configtest`
+`sudo systemctl reload apache2`
+
+I created an index.html file in the web root using this command:
+
+`sudo echo 'Hello LAMP from hostname' $(curl -s http://169.254.169.254/latest/meta-data/public-hostname) 'with public IP' $(curl -s http://169.254.169.254/latest/meta-data/public-ipv4) > /var/www/projectlamp/index.html`
 
 
+From from browser, I opened my website URL and the result returned is shown below:
+
+![Website URL Result](./images/website_URL_result.PNG "Website URL Result")
+
+
+___
+### **TASK 5: ENABLE PHP ON THE WEBSITE**
+---
 
 
 

@@ -110,13 +110,27 @@ From from browser, I opened my website URL and the result returned is shown belo
 ___
 ### **TASK 5: ENABLE PHP ON THE WEBSITE**
 ---
+I ran the following commands:
 
+`sudo vim /etc/apache2/mods-enabled/dir.conf`
 
+`sudo systemctl reload apache2`
 
+After this, I created a new file named index.php inside the custom web root folder using the command:
 
--   [Project 1 Repository Link](https://github.com/sileola/Project-1)
+`vim /var/www/projectlamp/index.php` and I opened the file and pasted in the text below:
 
+```
+<?php
+phpinfo();
+```
 
+Saving and reloading the page on my browser gave the following output:
 
+![Server Info](./images/server_info_php.PNG "Server Info")
 
-### To be continued
+The page above was then removed by running this command:
+
+`sudo rm /var/www/projectlamp/index.php`
+
+## **This is the end of Project 1.**

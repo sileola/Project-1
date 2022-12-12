@@ -1,5 +1,4 @@
 # Project-1
 This is my Project 1
 
-### Project 1 is all about  LAMP Stack Implementation
-#### Thank you.
+### Deployment and configuration of a LAMP stack website in AWS cloud
